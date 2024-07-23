@@ -1,14 +1,11 @@
-import { useState } from 'react'
- 
- 
+import NotesPage from "./pages/Notespage"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <p>MyApp</p>
-    </>
+      <div id="app">
+    <NotesPage />
+    </div>
   )
 }
 
